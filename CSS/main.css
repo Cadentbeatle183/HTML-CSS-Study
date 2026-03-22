@@ -1,0 +1,27 @@
+.profile {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gulim {
+  font-family: gulim;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.box {
+  width:fit-content;
+  height: auto;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: larger;
+  background-color: aquamarine;
+  margin:auto;
+  box-shadow: 5px 5px black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
