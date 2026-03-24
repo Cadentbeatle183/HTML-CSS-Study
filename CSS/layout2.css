@@ -1,0 +1,66 @@
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../shoes-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  position: relative;
+}
+
+.main-title {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+}
+
+.text-design {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  font-weight: 100%;
+  -webkit-text-stroke: 4px black;
+  paint-order: stroke fill;
+}
+
+.button-design {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 314px;
+  height: 100px;
+  background-color: rgb(209, 255, 255);
+  border-radius: 150px;
+  border-width: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.bottom-background {
+  background-color: aliceblue;
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  left: 0;
+  right: 0;
+}
+
+.bottom-h4-text {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.bottom-p-text {
+  width: 70%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: break-all;
+}
