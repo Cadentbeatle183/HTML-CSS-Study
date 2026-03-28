@@ -1,15 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/homework3.css">
-</head>
-<body style="background-color:rgb(167, 209, 212); ">
+    <link rel="stylesheet" href="CSS/homework3.css" />
+  </head>
+  <body>
     <div class="background-div">
-        <h2>Your shopping cart</h2>
-        <div class="background-table"></div>
+      <h2 style="color: rgb(19, 18, 82);">Your shopping cart</h2>
+      <table class="background-table">
+        <thead>
+          <tr>
+            <td></td>
+            <td>ITEM</td>
+            <td>AMOUNT</td>
+            <td>PRICE</td>
+            <td>TOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>사진</td>
+            <td>
+              <spzn style="font-family: serif">SONY</spzn><br />FE 70-200 mm
+              F2.8 GM OSS
+            </td>
+            <td>1</td>
+            <td>€ 1979.00</td>
+            <td>€ 1979.00</td>
+          </tr>
+          <tr>
+            <td>사진</td>
+            <td>
+              <spzn style="font-family: serif">SONY</spzn><br />Sonnar T* E 24mm
+              F1.8 ZA
+            </td>
+            <td>1</td>
+            <td>€ 989.00</td>
+            <td>€ 989.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>€ 2968.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="margin-top: 3%;">
+        <p style="float: left; font-size: large;">Edit your shopping cart</p>
+        <button class="choose">Choose payment method</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
